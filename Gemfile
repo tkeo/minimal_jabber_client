@@ -1,0 +1,8 @@
+source 'http://rubygems.org'
+gem 'xmpp4r'
+gem 'sinatra'
+gem 'haml'
+gem 'sass'
+gem 'sequel'
+gem 'sqlite3'
+gem 'pry'

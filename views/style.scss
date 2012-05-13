@@ -1,0 +1,21 @@
+.message {
+  border: solid 1px blue;
+  margin: 5px;
+  padding: 5px;
+
+  .body {
+    background-color: #ddddff;
+    clear: both;
+    padding: 3px;
+  }
+
+  .from {
+    float: left;
+  }
+
+  .timestamp {
+    color: gray;
+    font-size: small;
+    text-align: right;
+  }
+}

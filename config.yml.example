@@ -1,0 +1,6 @@
+server: im.example.com
+uid: username
+password: password
+resource: bot
+nickname: nickname
+db_filepath: message.db
