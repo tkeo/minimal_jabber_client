@@ -1,6 +1,12 @@
 class Room < Sequel::Model
   one_to_many :messages
 
+  db.create_table?(self.table_name) do
+    primary_key :id
+    String :name
+    String :domain
+  end
+
   def join(client, resource)
     muc = Jabber::MUC::MUCClient.new(client)
     room_jid = Jabber::JID.new(name, domain, resource)
